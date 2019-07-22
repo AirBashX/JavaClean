@@ -1,4 +1,4 @@
-package API.集合;
+package API.Collection;
 
 import java.util.ArrayList;
 import java.util.Collection;

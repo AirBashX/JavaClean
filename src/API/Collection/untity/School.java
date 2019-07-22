@@ -1,19 +1,17 @@
-package API.集合.untity;
+package API.Collection.untity;
 
-public class Student implements Comparable<Student>{
+public class School{
 
 	private String name;
 	private Integer id;
-	
-	public Student(String name, Integer id) {
+	public School(String name, Integer id) {
 		super();
 		this.name = name;
 		this.id = id;
 	}
-	public Student() {
+	public School() {
 		super();
 	}
-
 	public String getName() {
 		return name;
 	}
@@ -26,17 +24,9 @@ public class Student implements Comparable<Student>{
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	
 	@Override
 	public String toString() {
-		return "Student [name=" + name + ", id=" + id + "]";
+		return "School [name=" + name + ", id=" + id + "]";
 	}
 	
-	/**
-	 * ":"的作用else或者else if;
-	 */
-	@Override
-	public int compareTo(Student student) {
-		return id-student.id;
-	}
 }

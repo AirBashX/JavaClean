@@ -1,10 +1,10 @@
-package API.集合;
+package API.Collection;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import API.集合.untity.School;
+import API.Collection.untity.School;
 
 public class Test06Conllections {
 	
