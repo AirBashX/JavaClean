@@ -14,7 +14,7 @@ public class Test02Method {
 		//获取类名
 		String simpleName = clazz.getSimpleName();
 		System.out.println(simpleName);
-		String packageName = clazz.getPackageName();
+		Package packageName = clazz.getPackage();
 		System.out.println(packageName);
 		String name2 = clazz.getSuperclass().getName();
 		System.out.println(name2);
