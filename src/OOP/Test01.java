@@ -1,4 +1,4 @@
-package 测试;
+package OOP;
 
 /***
  * 向上造型类型题

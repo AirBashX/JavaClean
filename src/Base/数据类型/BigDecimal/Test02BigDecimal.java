@@ -1,4 +1,4 @@
-package Base.数据类型;
+package Base.数据类型.BigDecimal;
 
 import java.math.RoundingMode;
 

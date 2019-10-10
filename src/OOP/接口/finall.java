@@ -1,4 +1,4 @@
-package 接口;
+package OOP.接口;
 
 /**
  * 局部变量和成员变量的区别

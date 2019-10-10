@@ -1,4 +1,4 @@
-package 静态方法;
+package OOP.静态方法;
 
 public class Test1 {
 	int a;
