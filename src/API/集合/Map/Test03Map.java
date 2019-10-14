@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class Test05Map {
+public class Test03Map {
 	static HashMap<String, String> map = new HashMap<String,String>();
 	
 	public static void main(String[] args) {

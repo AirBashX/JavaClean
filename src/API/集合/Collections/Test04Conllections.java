@@ -6,7 +6,7 @@ import java.util.Comparator;
 
 import API.集合.Collection.untity.School;
 
-public class Test06Conllections {
+public class Test04Conllections {
 	
 	public static void main(String[] args) {
 		ArrayList<Integer> list = new ArrayList<Integer>();
