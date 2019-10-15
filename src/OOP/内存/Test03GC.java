@@ -1,6 +1,6 @@
 package OOP.内存;
 
-public class GC {
+public class Test03GC {
 	/**
 	 * 模拟内存溢出错误,并调用GC;
 	 * @param args
