@@ -4,7 +4,7 @@ package OOP.重载;
  * 重载
  * @author ZSP
  */
-public class Test02{ 
+public class Test01{ 
 public void show(int x, float y, int z) { } 
 public void show(int x,int z,float y) {}
 public void show(float x,int y,int z) {}//与参数列表的顺序无关
