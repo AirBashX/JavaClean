@@ -9,14 +9,15 @@ import OOP.内部类.entity.Father;
  */
 public class Test03 {
 	/**
-	 * 接口相关匿名内部类
+	 * 1.接口相关匿名内部类
 	 * @param book
 	 */
 	public void book(Book book) {
 		System.out.println("书的名字是:"+book.getName()+",价格是"+book.getPrice());
 	}
+	
 	/**
-	 * 继承匿名内部类
+	 * 2.继承匿名内部类
 	 */
 	public void father() {
 		//java1.8后自动在成员变量前加上final,再次定义则编译错误
@@ -32,8 +33,11 @@ public class Test03 {
 		};
 		System.out.println("姓名:"+father.getName()+",年龄:"+father.getAge()+",书籍:"+father.getBook());
 	}
+	
 	public static void main(String[] args) {
 		Test03 test = new Test03();
+		
+		//1.引用是匿名内部类
 		test.book(new Book() {
 
 			@Override
@@ -45,6 +49,8 @@ public class Test03 {
 				return "数学";
 			}
 		});
+		
+		//2.对象时匿名内部类
 		test.father();
 	}
 
