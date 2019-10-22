@@ -1,4 +1,4 @@
-package Base.关键字.entity;
+package OOP.修饰符.Final.entity;
 
 public class Person {
 	public String name;

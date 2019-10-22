@@ -1,6 +1,6 @@
-package Base.关键字;
+package OOP.修饰符.Final;
 
-import Base.关键字.entity.Person;
+import OOP.修饰符.Final.entity.Person;
 
 /**
  * final关键字的作用:
@@ -8,7 +8,7 @@ import Base.关键字.entity.Person;
  * 				2.修饰方法时不能被重写,但是能重载
  * @author ZSP
  */
-public class Test01Final {
+public class Test01 {
 	
 	/**
 	 * final修饰变量时的两种赋值方法

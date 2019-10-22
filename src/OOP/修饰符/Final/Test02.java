@@ -1,11 +1,11 @@
-package OOP.关键字;
+package OOP.修饰符.Final;
 
 /**
  * 局部变量和成员变量的区别
  * @author ZSP
  *
  */
-public class test01finall {
+public class Test02 {
 	/**
 	 * 成员变量:声明时必须赋值
 	 */

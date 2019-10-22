@@ -4,7 +4,7 @@ package OOP.接口.inter;
  * 接口类:abstract可以省略,编译器会补全
  * @author ZSP
  */
-public abstract interface test01 {
+public abstract interface Itest01Base {
 	
 	/**
 	 * 常量:接口中没有成员变量,常量的修饰符可以省略
@@ -24,34 +24,37 @@ public abstract interface test01 {
 	void method02();
 	
 	/**
-	 *默认方法:相当于抽象类中的普通方法 :有方法体
+	 *默认方法:相当于抽象类中的普通方法 :有方法体,可以被重写
 	 */
 	default void method03() {
-		System.out.println("默认方法:该功能已被实现");
-		System.out.println("默认方法引用私有方法");
-		method05();
 		System.out.println("---------------");
-	}
-	
-	/**
-	 * 静态方法
-	 */
-	static void method04() {
-		System.out.println("静态方法");
-		System.out.println("静态方法引用静态私有方法");
+		System.out.println("默认方法:");
+		method01();
+		method02();
+		method04();
+		method05();
 		method06();
 		System.out.println("---------------");
 	}
 	
 	/**
-	 * 私有方法:默认方法的私有方法
+	 * 静态方法:可以被重写
+	 */
+	static void method04() {
+		System.out.println("静态方法:");
+		method06();
+		System.out.println("---------------");
+	}
+	
+	/**
+	 * 私有方法jdk9:默认方法的私有方法
 	 */
 	private void method05() {
 		System.out.println("私有方法");
 	}
 	
 	/**
-	 * 静态私有方法:静态方法的私有方法
+	 * 静态私有方法jdk9:静态方法的私有方法
 	 */
 	private static void method06() {
 		System.out.println("静态私有方法");
