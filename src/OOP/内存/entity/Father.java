@@ -1,4 +1,4 @@
-package OOP.内存.untity;
+package OOP.内存.entity;
 
 public class Father {
 

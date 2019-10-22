@@ -1,6 +1,6 @@
 package OOP.内存;
 
-import OOP.内存.untity.Father;
+import OOP.内存.entity.Father;
 
 /**
  * 模拟方法在栈堆中的关系

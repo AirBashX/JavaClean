@@ -1,4 +1,4 @@
-package OOP.静态方法;
+package OOP.静态;
 
 public class Test02Static {
 	public static void main(String[] args) {
