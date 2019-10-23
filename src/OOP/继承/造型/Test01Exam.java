@@ -1,11 +1,11 @@
-package OOP.继承;
+package OOP.继承.造型;
 
 /***
  * 向上造型类型题
  * @author ZSP
  *
  */
-public class Test01 {
+public class Test01Exam {
 
 	//A
 	//D	A---D

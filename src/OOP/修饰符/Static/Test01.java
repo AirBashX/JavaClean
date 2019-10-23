@@ -1,4 +1,4 @@
-package OOP.静态;
+package OOP.修饰符.Static;
 
 public class Test01 {
 	int a;
