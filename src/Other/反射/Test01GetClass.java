@@ -4,7 +4,7 @@ package Other.反射;
  * @author ZSP
  *
  */
-public class Test01Class {
+public class Test01GetClass {
 
 	public static void main(String[] args) {
 		//1.
@@ -13,7 +13,7 @@ public class Test01Class {
 			} catch (ClassNotFoundException e) {
 				e.printStackTrace();
 			}
-		//2.
+		//2.推荐
 		Class clazz2 = String.class;
 		System.out.println(clazz2);
 		//3.

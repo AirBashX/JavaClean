@@ -3,7 +3,7 @@ package Other.反射;
 import Other.反射.IOC.MySpring;
 import Other.反射.untity.Father;
 
-public class Test04Spring {
+public class Test04SpringIOC {
 
 	public static void main(String[] args) {
 		MySpring spring = new MySpring();

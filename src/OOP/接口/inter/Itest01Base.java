@@ -32,8 +32,8 @@ public abstract interface Itest01Base {
 		method01();
 		method02();
 		method04();
-		method05();
-		method06();
+//		method05();
+//		method06();
 		System.out.println("---------------");
 	}
 	
@@ -42,22 +42,22 @@ public abstract interface Itest01Base {
 	 */
 	static void method04() {
 		System.out.println("静态方法:");
-		method06();
+//		method06();
 		System.out.println("---------------");
 	}
 	
 	/**
 	 * 私有方法jdk9:默认方法的私有方法
 	 */
-	private void method05() {
-		System.out.println("私有方法");
-	}
+//	private void method05() {
+//		System.out.println("私有方法");
+//	}
 	
 	/**
 	 * 静态私有方法jdk9:静态方法的私有方法
 	 */
-	private static void method06() {
-		System.out.println("静态私有方法");
-	}
+//	private static void method06() {
+//		System.out.println("静态私有方法");
+//	}
 	 
 }

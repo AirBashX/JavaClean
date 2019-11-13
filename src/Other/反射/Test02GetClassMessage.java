@@ -1,6 +1,10 @@
 package Other.反射;
-
-public class Test02Method {
+/**
+ * 获取class相关的相关信息
+ * @author ZSP
+ *
+ */
+public class Test02GetClassMessage {
 
 	public static void main(String[] args) {
 		//获取class对象

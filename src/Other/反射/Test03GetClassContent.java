@@ -8,8 +8,10 @@ import java.util.Arrays;
 
 import Other.反射.untity.Person;
 
-public class Test03 {
+public class Test03GetClassContent {
+	//获取类
 	static Class clazz = Person.class;
+	//获取变量数组
 	static Field[] fields = clazz.getFields();
 	public static void main(String[] args) {
 		//getFilds();
@@ -28,7 +30,7 @@ public class Test03 {
 			//获取类型;
 			Class<?> type = field.getType();
 			System.out.println("属性类型"+type);
-			//获取修饰符
+			//获取修饰符;
 			int modifiers = field.getModifiers();
 			System.out.println(modifiers);
 			
