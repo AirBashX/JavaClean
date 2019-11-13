@@ -1,5 +1,7 @@
 package OOP.内部类.entity;
 
+import java.util.Objects;
+
 public class Father {
 	
 	
@@ -40,5 +42,4 @@ public class Father {
 	public void setBook(String book) {
 		Book = book;
 	}
-	
 }
