@@ -7,16 +7,18 @@ package Other.反射;
 public class Test01GetClass {
 
 	public static void main(String[] args) {
-		//1.
+		//1.Class:
 			try {
 				Class forName = Class.forName("java.lang.String");
 			} catch (ClassNotFoundException e) {
 				e.printStackTrace();
 			}
-		//2.推荐
+			
+		//2.本身属性:推荐
 		Class clazz2 = String.class;
 		System.out.println(clazz2);
-		//3.
+		
+		//3.Object:
 		String string = "x";
 		Class clazz3 = string.getClass();
 		System.out.println(clazz3);
