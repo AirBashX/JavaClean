@@ -1,11 +1,11 @@
-package Other.Class;
+package Other.ClassLoader;
 
 import java.net.URL;
 
 import org.junit.Test;
 
 /**
- * 类加载器
+ * 三种类加载器
  * 
  * @author ZSP
  *

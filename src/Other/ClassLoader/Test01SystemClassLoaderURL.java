@@ -1,4 +1,4 @@
-package Other.Class;
+package Other.ClassLoader;
 
 import java.io.IOException;
 import java.net.URL;
