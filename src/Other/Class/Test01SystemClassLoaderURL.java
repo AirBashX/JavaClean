@@ -11,11 +11,11 @@ import org.junit.Test;
  * @author ZSP
  *
  */
-public class Test01 {
+public class Test01SystemClassLoaderURL {
 	
 	@Test
 	public void test01() {
-		//类加载器
+		//系统类加载器
 		ClassLoader systemLoader = ClassLoader.getSystemClassLoader();
 		System.out.println("系统类加载器:" + systemLoader);
 		try {
