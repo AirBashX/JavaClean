@@ -1,8 +1,9 @@
 package API.String;
 
-public class StringBufferTest {
+public class Test01StringBuffer {
 	public static void main(String[] args) {
 		test1();
+		Integer integer = new Integer(123);
 	}
 	
 	/**
