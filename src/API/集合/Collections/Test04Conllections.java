@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import API.集合.Collection.untity.School;
+import API.集合.Collection.entity.School;
 
 public class Test04Conllections {
 	

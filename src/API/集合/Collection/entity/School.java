@@ -1,4 +1,4 @@
-package API.集合.Collection.untity;
+package API.集合.Collection.entity;
 
 public class School{
 

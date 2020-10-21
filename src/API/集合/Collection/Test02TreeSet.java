@@ -2,8 +2,8 @@ package API.集合.Collection;
 
 import java.util.TreeSet;
 
-import API.集合.Collection.untity.School;
-import API.集合.Collection.untity.Student;
+import API.集合.Collection.entity.School;
+import API.集合.Collection.entity.Student;
 
 /**
  * Tree的两种排序方式
