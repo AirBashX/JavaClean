@@ -37,6 +37,7 @@ public class Student implements Comparable<Student>{
 	 */
 	@Override
 	public int compareTo(Student student) {
-		return id-student.id;
+		//return student.id-id;
+		return 1;
 	}
 }

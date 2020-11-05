@@ -2,6 +2,8 @@ package API.集合.Collection;
 
 import java.util.TreeSet;
 
+import org.junit.Test;
+
 import API.集合.Collection.entity.School;
 import API.集合.Collection.entity.Student;
 
@@ -12,29 +14,29 @@ import API.集合.Collection.entity.Student;
  */
 public class Test02TreeSet {
 
-	public static void main(String[] args) {
-		//comparable();
-		comparator();
-	}
-
 	/**
-	 * 自定义排序:自定义类实现comparable类;
+	 * 自然排序:实体类实现comparable类,请转到实体类Student中查看规则;
 	 */
-	public static void comparable() {
+	@Test
+	public void comparable() {
 		TreeSet<Student> set = new TreeSet<Student>();
-		set.add(new Student("a",1));
 		set.add(new Student("c",3));
+		set.add(new Student("a",1));
 		set.add(new Student("b",2));
 		System.out.println(set);
 	}
 	
 	/**
-	 * 自然排序:自定义类实现comparator类;
+	 * 定制排序:实体类实现comparator类;
 	 */
-	public static void comparator() {
+	@Test
+	public void comparator() {
 		TreeSet<School> set = new TreeSet<School>((School school1,School school2)->
 		{
-			return school1.getId()-school2.getId();
+			//升序
+			return school2.getId()-school1.getId();
+			//降序
+			//return school2.getId()-school1.getId();
 		});
 		set.add(new School("a",1));
 		set.add(new School("c",3));
