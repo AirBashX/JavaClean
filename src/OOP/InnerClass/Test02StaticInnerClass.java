@@ -5,7 +5,7 @@ package OOP.InnerClass;
  * 静态内部类:只能访问外部类的类成员(静态方法+变量),不能访问外部类的实例成员
  * @author ZSP
  */ 
-public class Test02StaticInnerCLass {
+public class Test02StaticInnerClass {
 	
 	private String A1 = "外部类成员变量";
 	private static String A2="外部类静态成员变量";
@@ -17,7 +17,7 @@ public class Test02StaticInnerCLass {
 		System.out.println("外部类静态方法");
 	}
 	
-	public static class Inclass{
+	public static class Innerclass{
 		private String B1 = "内部类成员变量1";
 		private static String B2 = "内部类成员变量2";
 		

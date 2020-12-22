@@ -31,6 +31,7 @@ public class Test02Number {
 	/**
 	 * string转换为基本类型
 	 */
+	@Test
 	public void test02() {
 		String string = "10";
 		//parseInt
@@ -41,6 +42,7 @@ public class Test02Number {
 	/**
 	 * 基本类型>>>包装类
 	 */
+	@Test
 	public void test03() {
 		//手动
 		Integer valueOf = Integer.valueOf(a);
@@ -52,11 +54,23 @@ public class Test02Number {
 	/**
 	 * 包装类>>>基本类型
 	 */
+	@Test
 	public void test04() {
 		//手动
 		int int1 = b.intValue();
 		//自动
 		int int2 = b;
 	}
+	
+	/**
+	 * intValue:跟强制类型转换的关系还不清楚
+	 */
+	@Test
+	public void test05() {
+		System.out.println((int)1000000);
+		System.out.println(new Long(null).intValue());
+		
+	}
 }
+
 

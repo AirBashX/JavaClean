@@ -8,9 +8,9 @@ import OOP.InnerClass.entity.InterfaceFather;
  * @author ZSP
  *
  */
-public class Test04Lambda {
+public class Test05Lambda {
 
-	public Test04Lambda() {
+	public Test05Lambda() {
 		
 		//只有一个方法的函数型接口
 		InterfaceFather a=()->{

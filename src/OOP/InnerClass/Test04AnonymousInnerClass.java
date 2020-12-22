@@ -7,7 +7,7 @@ import OOP.InnerClass.entity.ClassFather;
  * 匿名内部类:简写新建子类或派生类
  * @author ZSP
  */
-public class Test03AnonymousInnerClass {
+public class Test04AnonymousInnerClass {
 	/**
 	 * 1.创建接口相关的匿名内部类
 	 * @param father01
