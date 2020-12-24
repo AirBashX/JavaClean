@@ -2,7 +2,7 @@ package Other.BigDecimal;
 
 import java.math.RoundingMode;
 
-import Other.BigDecimal.utility.Arith;
+import Other.BigDecimal.entity.Arith;
 
 
 public class Test02BigDecimal {

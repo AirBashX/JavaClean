@@ -1,4 +1,4 @@
-package Other.反射.untity;
+package Other.反射.entity;
 
 public class Person {
 	public String name;

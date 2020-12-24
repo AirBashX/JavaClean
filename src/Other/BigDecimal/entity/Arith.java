@@ -1,4 +1,4 @@
-package Other.BigDecimal.utility;
+package Other.BigDecimal.entity;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

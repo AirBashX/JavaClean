@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.TypeVariable;
 import java.util.Arrays;
 
-import Other.反射.untity.Person;
+import Other.反射.entity.Person;
 
 public class Test03GetClassContent {
 	//获取类
